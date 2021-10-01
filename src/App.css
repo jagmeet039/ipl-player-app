@@ -1,0 +1,15 @@
+.input-box{
+    border: none;
+}
+
+.card{
+    position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.card:hover{
+    cursor: pointer;
+    top: -15px;
+    background: lightcyan;
+}
